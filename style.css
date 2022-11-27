@@ -178,16 +178,6 @@ body {
     .p-pp,
     .li-p,
     .li-pp {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .li-p,
-    .p-p {
-        line-height: 2rem;
-    }
-
-    .p-pp {
-        margin-top: 10px;
+        margin: 5px;
     }
 }
