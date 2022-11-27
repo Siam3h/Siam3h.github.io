@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:serif;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
 }
 
 .header .contacts p {
-    padding-left:10px ;
+    padding-left: 10px;
     margin-top: 10px;
     border-left: 2px solid gray;
 }
@@ -33,6 +33,10 @@ body {
 .header .introduction .btn a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.header .introduction .intro-p {
+    line-height: 2rem;
 }
 
 .header .introduction .btn:hover {
@@ -54,7 +58,7 @@ body {
     margin-left: 20%;
 }
 
-.p-pp  {
+.p-pp {
     margin-top: 25px;
     margin-left: 20%;
 }
@@ -62,7 +66,7 @@ body {
 .li-p {
     margin-top: 25px;
     margin-left: 20%;
-    list-style-type:circle;
+    list-style-type: circle;
 }
 
 .li-p a {
@@ -78,7 +82,7 @@ body {
 .li-pp {
     margin-top: 25px;
     margin-left: 20%;
-    list-style-type:disc;
+    list-style-type: circle;
 }
 
 .li-p li span {
@@ -113,33 +117,77 @@ body {
     margin-left: 5px;
 }
 
+
+.paragraph-year,
+.paragraph-work {
+    display: none;
+    visibility: hidden;
+}
+
+
+
 @media (max-width: 968px) {
     .header {
         display: flex;
         flex-direction: column;
-        margin:10px ;
+        margin: 10px;
+    }
+
+    .header .contacts p {
+        line-height: 2rem;
+    }
+
+    .skills .location-year {
+        display: none;
+    }
+
+    .skills .work-place {
+        display: none;
+    }
+
+    .skills .location-year {
+        display: none;
+    }
+
+    .footer .education .school,
+    .footer .education .location-year {
+        display: none;
     }
 
     .skills {
         display: flex;
         flex-direction: column;
-        border-top: 4px solid grey;
+    }
+
+    .skills .title,
+    .education .title {
+        border-bottom: 4px solid grey;
     }
 
     .education {
         display: flex;
         flex-direction: column;
-        border-top: 4px solid grey;
     }
 
     .footer {
-        border-bottom: 1px solid grey;;
+        border-bottom: 1px solid grey;
+        ;
     }
 
     .p-p,
     .p-pp,
     .li-p,
     .li-pp {
-        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .li-p,
+    .p-p {
+        line-height: 2rem;
+    }
+
+    .p-pp {
+        margin-top: 10px;
     }
 }
