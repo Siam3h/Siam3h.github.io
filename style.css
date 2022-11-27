@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family:serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
@@ -180,4 +180,5 @@ body {
     .li-pp {
         margin: 5px;
     }
+
 }
