@@ -21,6 +21,18 @@ body {
     border-left: 2px solid gray;
 }
 
+.body-content .p p {
+    line-height: 2rem;
+}
+
+.footer .div1 .p2 p  {
+    line-height: 2rem;
+}
+
+.footer .p4 p {
+    line-height: 2rem;
+}
+
 .header .introduction .btn {
     background: grey;
     color: whitesmoke;
@@ -131,6 +143,10 @@ body {
         display: flex;
         flex-direction: column;
         margin: 10px;
+    }
+
+    .body-content .projects {
+        margin: 20px;
     }
 
     .header .contacts p {
