@@ -130,12 +130,17 @@ body {
 }
 
 
-.paragraph-year,
-.paragraph-work {
+.body-content .paragraph-div {
     display: none;
-    visibility: hidden;
 }
 
+.footer .paragraph-div1 {
+    display: none;
+}
+
+.footer .paragraph2 {
+    display: none;
+}
 
 
 @media (max-width: 968px) {
@@ -143,6 +148,18 @@ body {
         display: flex;
         flex-direction: column;
         margin: 10px;
+    }
+
+    .body-content .paragraph-div {
+        display: block;
+    }
+
+    .footer .paragraph-div1 {
+        display: block;
+    }
+
+    .footer .paragraph2 {
+        display: block;
     }
 
     .body-content .projects {
@@ -158,10 +175,6 @@ body {
     }
 
     .skills .work-place {
-        display: none;
-    }
-
-    .skills .location-year {
         display: none;
     }
 
